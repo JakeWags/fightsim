@@ -37,7 +37,7 @@ public class ItemList {
         Iterator itr1;
         Iterator itr2 = a.iterator();
         ArrayList<Item> b = new ArrayList<>();
-        int mod = 0, armor = 0;
+        int mod = 0, armor = 0, value = 0;
         String name = "ERROR";
 
         while(itr2.hasNext()) {
@@ -51,19 +51,21 @@ public class ItemList {
                     mod = ((Long) pair.getValue()).intValue();
                 } else if (pair.getKey().equals("armor") && pair.getValue() instanceof java.lang.Long) {
                     armor = ((Long) pair.getValue()).intValue();
+                } else if (pair.getKey().equals("value") && pair.getValue() instanceof java.lang.Long) {
+                    value = ((Long) pair.getValue()).intValue();
                 }
             }
             switch(type) {
                 case "Armor":
-                    b.add(new Armor(armor, mod, name));
+                    b.add(new Armor(armor, mod, name, value));
                 case "Headgear":
-                    b.add(new Headgear(armor, mod, name));
+                    b.add(new Headgear(armor, mod, name, value));
                 case "Footwear":
-                    b.add(new Footwear(armor, mod, name));
+                    b.add(new Footwear(armor, mod, name, value));
                 case "Onehand":
-                    b.add(new OneHand(armor, mod, name));
+                    b.add(new OneHand(armor, mod, name, value));
                 case "Twohand":
-                    b.add(new TwoHand(armor, mod, name));
+                    b.add(new TwoHand(armor, mod, name, value));
             }
 
         }

@@ -10,7 +10,7 @@ public class Main {
         init();
         Player p = new Player("jake");
 
-        p.equipItem(ItemList.getItem("Bronze Spear"));
+        p.equipItem(ItemList.getItem("Black Cleaver"));
         p.equipItem(ItemList.getItem("Cloth Armor"));
         p.equipItem(ItemList.getItem("Leather Sandals"));
 

@@ -3,12 +3,14 @@ package items;
 public class OneHand implements Item {
     int armor = 0;
     int mod = 0;
+    int value = 0;
     String name;
 
-    public OneHand(int a, int m, String n) {
+    public OneHand(int a, int m, String n, int v) {
         setArmor(a);
         setMod(m);
         setName(n);
+        setValue(v);
     }
 
     public int getArmor() {
@@ -37,7 +39,17 @@ public class OneHand implements Item {
         this.name = n;
     }
 
+    @Override
+    public int getValue() {
+        return this.value;
+    }
+
+    @Override
+    public void setValue(int i) {
+        this.value = i;
+    }
+
     public String toString() {
-        return "OneHand: " + this.name + ", mod: " + this.mod + ", armor: " + this.armor;
+        return "OneHand: " + this.name + ", mod: " + this.mod + ", armor: " + this.armor + ", value: " + this.value;
     }
 }

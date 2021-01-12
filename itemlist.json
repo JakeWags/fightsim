@@ -1,75 +1,75 @@
 {
   "Armor": [
     {
-      "name": "Spiky Kneecaps", "armor": 1, "mod": 1
+      "name": "Spiky Kneecaps", "armor": 1, "mod": 1, "value": 100
     },
     {
-      "name": "Celestial Plate", "armor": 5, "mod": 0
+      "name": "Celestial Plate", "armor": 5, "mod": 0, "value": 500
     },
     {
-      "name": "Steel Plate", "armor": 4, "mod": 0
+      "name": "Steel Plate", "armor": 4, "mod": 0, "value": 100
     },
     {
-      "name": "Cloth Armor", "armor": 1, "mod": 0
+      "name": "Cloth Armor", "armor": 1, "mod": 0, "value": 100
     },
     {
-      "name": "Leather Jerkin", "armor": 2, "mod": 0
+      "name": "Leather Jerkin", "armor": 2, "mod": 0, "value": 100
     }
   ],
   "Headgear": [
     {
-      "name": "Iron Skullcap", "armor": 2, "mod": 0
+      "name": "Iron Skullcap", "armor": 2, "mod": 0, "value": 100
     },
     {
-      "name": "Leather cap", "armor": 1, "mod": 0
+      "name": "Leather cap", "armor": 1, "mod": 0, "value": 100
     },
     {
-      "name": "Steel Platehelm", "armor": 3, "mod": 0
+      "name": "Steel Platehelm", "armor": 3, "mod": 0, "value": 100
     }
   ],
   "Footwear": [
     {
-      "name": "Holy Sandals", "armor": 2, "mod": 0
+      "name": "Holy Sandals", "armor": 2, "mod": 0, "value": 200
     },
     {
-      "name": "Leather Sandals", "armor": 1, "mod": 0
+      "name": "Leather Sandals", "armor": 1, "mod": 0, "value": 100
     },
     {
-      "name": "Steel Boots", "armor": 3, "mod": 0
+      "name": "Steel Boots", "armor": 3, "mod": 0, "value": 100
     }
   ],
   "OneHand": [
     {
-      "name": "Sword of Truth", "armor": 0, "mod": 3
+      "name": "Sword of Truth", "armor": 0, "mod": 3, "value": 100
     },
     {
-      "name": "Bronze Gladius", "armor": 0, "mod": 2
+      "name": "Bronze Gladius", "armor": 0, "mod": 2, "value": 100
     },
     {
-      "name": "Iron Dirk", "armor": 0, "mod": 1
+      "name": "Iron Dirk", "armor": 0, "mod": 1, "value": 100
     },
     {
-      "name": "Wooden Shield", "armor": 1, "mod": 0
+      "name": "Wooden Shield", "armor": 1, "mod": 0, "value": 100
     },
     {
-      "name": "Banded Iron Shield", "armor": 3, "mod": 0
+      "name": "Banded Iron Shield", "armor": 3, "mod": 0, "value": 100
     }
   ],
   "TwoHand": [
     {
-      "name": "Black Cleaver", "armor": 0, "mod": 5
+      "name": "Black Cleaver", "armor": 0, "mod": 5, "value": 500
     },
     {
-      "name": "Steel Glaive", "armor": 0, "mod": 3
+      "name": "Steel Glaive", "armor": 0, "mod": 3, "value": 100
     },
     {
-      "name": "Bronze Spear", "armor": 0, "mod": 2
+      "name": "Bronze Spear", "armor": 0, "mod": 2, "value": 100
     },
     {
-      "name": "Steel Spear", "armor": 0, "mod": 3
+      "name": "Steel Spear", "armor": 0, "mod": 3, "value": 100
     },
     {
-      "name": "Tower Shield", "armor": 5, "mod": 0
+      "name": "Tower Shield", "armor": 5, "mod": 0, "value": 100
     }
   ]
 }
