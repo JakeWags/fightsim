@@ -1,0 +1,75 @@
+{
+  "Armor": [
+    {
+      "name": "Spiky Kneecaps", "armor": 1, "mod": 1
+    },
+    {
+      "name": "Celestial Plate", "armor": 5, "mod": 0
+    },
+    {
+      "name": "Steel Plate", "armor": 4, "mod": 0
+    },
+    {
+      "name": "Cloth Armor", "armor": 1, "mod": 0
+    },
+    {
+      "name": "Leather Jerkin", "armor": 2, "mod": 0
+    }
+  ],
+  "Headgear": [
+    {
+      "name": "Iron Skullcap", "armor": 2, "mod": 0
+    },
+    {
+      "name": "Leather cap", "armor": 1, "mod": 0
+    },
+    {
+      "name": "Steel Platehelm", "armor": 3, "mod": 0
+    }
+  ],
+  "Footwear": [
+    {
+      "name": "Holy Sandals", "armor": 2, "mod": 0
+    },
+    {
+      "name": "Leather Sandals", "armor": 1, "mod": 0
+    },
+    {
+      "name": "Steel Boots", "armor": 3, "mod": 0
+    }
+  ],
+  "OneHand": [
+    {
+      "name": "Sword of Truth", "armor": 0, "mod": 3
+    },
+    {
+      "name": "Bronze Gladius", "armor": 0, "mod": 2
+    },
+    {
+      "name": "Iron Dirk", "armor": 0, "mod": 1
+    },
+    {
+      "name": "Wooden Shield", "armor": 1, "mod": 0
+    },
+    {
+      "name": "Banded Iron Shield", "armor": 3, "mod": 0
+    }
+  ],
+  "TwoHand": [
+    {
+      "name": "Black Cleaver", "armor": 0, "mod": 5
+    },
+    {
+      "name": "Steel Glaive", "armor": 0, "mod": 3
+    },
+    {
+      "name": "Bronze Spear", "armor": 0, "mod": 2
+    },
+    {
+      "name": "Steel Spear", "armor": 0, "mod": 3
+    },
+    {
+      "name": "Tower Shield", "armor": 5, "mod": 0
+    }
+  ]
+}
