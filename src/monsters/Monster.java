@@ -1,15 +1,15 @@
 package monsters;
 import player.Player;
 
-public class Monster {
+abstract class Monster {
     private int health;
     private String badStuff;
 
-    public Monster(int h, String bs) {
-        if (h > 0)
-        this.health = h;
+    public Monster(int health, String badstuff) {
+        if (health > 0)
+        this.health = health;
 
-        this.badStuff = bs;
+        this.badStuff = badstuff;
     }
 
     public int getHealth() {
@@ -20,8 +20,5 @@ public class Monster {
         return this.badStuff;
     }
 
-    public void doBadStuff(Player p) {
-        /* BEHAVIOR FOR BADSTUFF */
-        return;
-    }
+    public abstract void doBadStuff(Player p);
 }

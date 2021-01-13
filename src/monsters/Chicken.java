@@ -8,6 +8,7 @@ public class Chicken extends Monster {
 
     @Override
     public void doBadStuff(Player p) {
-
+        p.items.headgear = null;
+        p.changeHp(-1);
     }
 }

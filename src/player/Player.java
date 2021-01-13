@@ -68,8 +68,8 @@ public class Player {
         this.items.equipItem(i, slot);
     }
 
-    public void removeItem(Item i) {
-
+    public void changeHp(int i) {
+        this.hp += i;
     }
 
 }
